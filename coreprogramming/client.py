@@ -1,5 +1,5 @@
 # client.py
-from benchmark import benchmark, warmup
+from benchmark import benchmark
 from plotter import plot_results
 from prime import is_prime, is_prime_optimized_div, is_prime_optimized_mul
 
