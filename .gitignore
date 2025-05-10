@@ -17,3 +17,7 @@ __pycache__/
 *.zip
 *.pkl
 
+# Untracked folders
+/untracked/
+
+

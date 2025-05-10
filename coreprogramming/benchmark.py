@@ -3,7 +3,7 @@ import time
 
 
 # Warmup function
-def warmup(task, warmup_iterations):
+def _warmup(task, warmup_iterations):
     for _ in range(warmup_iterations):
         task()
 
@@ -12,7 +12,7 @@ def warmup(task, warmup_iterations):
 def benchmark(tasks, iterations, warmup_iterations):
     results = []
     for idx, task in enumerate(tasks):
-        warmup(task, warmup_iterations)
+        _warmup(task, warmup_iterations)
         total_ns = 0
         for _ in range(iterations):
             start_ns = time.perf_counter_ns()
