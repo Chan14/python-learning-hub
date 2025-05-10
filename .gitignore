@@ -1,10 +1,19 @@
+# Ignore virtual environment
+.venv/
+
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
-.venv/
-venv/
-*.log
-.DS_Store
-build/
-dist/
-*.egg-info/
+
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+
+# Log or output files
+*.log
+*.csv
+*.zip
+*.pkl
+
