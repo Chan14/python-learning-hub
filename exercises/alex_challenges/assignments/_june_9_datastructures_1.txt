@@ -1,0 +1,33 @@
+💪 Python Practice Gauntlet — Data Structures Edition
+🔁 Round 1: List + Dict Drills (Warm-Up)
+Find the second largest number in a list.
+
+Flatten a 2D list like [[1,2], [3,4], [5]] to [1,2,3,4,5].
+
+Reverse the keys and values in a dictionary.
+
+🔥 Round 2: defaultdict + Counter Combos
+Count the frequency of each character in a string ignoring case and non-alpha chars.
+
+Input: "Hello, World!" → Output: {'h':1, 'e':1, 'l':3, 'o':2, 'w':1, 'r':1, 'd':1}
+
+Group strings in a list by their last character.
+
+Input: ['bat', 'cat', 'rat', 'mat', 'map', 'cap']
+
+Output: {'t': ['bat', 'cat', 'rat', 'mat'], 'p': ['map', 'cap']}
+
+🧠 Round 3: Thought Challenge
+Write a function that takes a list of numbers and groups them into "even" and "odd" buckets using defaultdict.
+
+🌊 Round 4: Set Practice (Real Muscle Builder)
+Find all unique characters used in a list of strings.
+
+Find the common elements in two lists.
+
+Write a function to return elements that appear only once in a list.
+
+🧱 Round 5: Tuples + Sorting
+Given a list of (name, score) tuples, return the top 3 scorers.
+
+Sort a list of (word, count) tuples by count descending, then alphabetically.
